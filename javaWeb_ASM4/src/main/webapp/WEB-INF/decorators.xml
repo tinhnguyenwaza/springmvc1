@@ -1,0 +1,9 @@
+<decorators defaultdit="/WEB-INF/views/layouts"> 
+	<decorators name="user" page="user.jsp">
+		<patern>/trang-chu/*</patern>
+	</decorators>
+	
+	<decorators name="admin" page="admin.jsp">
+		<patern>/admin/*</patern>
+	</decorators>
+</decorators>
